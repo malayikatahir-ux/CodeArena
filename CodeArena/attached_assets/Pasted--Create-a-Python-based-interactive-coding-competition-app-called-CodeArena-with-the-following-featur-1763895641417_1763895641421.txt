@@ -1,0 +1,87 @@
+"Create a Python-based interactive coding competition app called CodeArena with the following features:
+
+1. GUI Theme and Layout:
+
+Background: black with animated moving stars.
+
+Title: CodeArena centered at the top with a visually appealing theme.
+
+Fields: arranged below the title with purple, pink, and blue colors; labels in white above each field.
+
+Left side: Player's code screen; right side: AI code screen, both colorful and parallel.
+
+Start button: visually appealing, positioned under the fields.
+
+Cute robot mascot: same size as CodeArena text, moves to each field and guides the player with voice instructions.
+
+2. User Interaction Flow (Robot & Voice-Guided):
+
+Robot appears at the field currently active and narrates what to do.
+
+Fields to fill:
+
+Player name.
+
+Player field (dropdown: medical, engineering, etc.).
+
+Language (dropdown: all programming languages supported).
+
+Language proficiency (dropdown: beginner, medium, advanced).
+
+Game level (dropdown: easy, medium, hard).
+
+Number of rounds and questions.
+
+Topics to compete in (output, print, plus, minus, etc.).
+
+Robot only moves to the next field once the current field is completed.
+
+Voice instructions guide the player for each step.
+
+3. Game Execution:
+
+After fields are complete, player presses Start.
+
+Robot moves to the center of both screens.
+
+Timer shows countdown for each round (e.g., 5 minutes per round).
+
+CodeArena generates coding challenges specific to the player’s field (medical, engineering, etc.).
+
+Both player and AI submit solutions; AI tracks progress and announces who is ahead.
+
+Robot narrates status updates: time left, player progress, AI progress.
+
+4. End of Game:
+
+Popup notification announces winner.
+
+If player wins: robot shows happiness animation, flowers sparkle.
+
+If player loses: robot shows sadness, but offers to review mistakes interactively using story/pictures and voice.
+
+Voice narration continues throughout.
+
+5. Technology Requirements:
+
+Use Python with any libraries or frameworks: PyQt5, Tkinter, Pygame, Streamlit, Gradio, or others.
+
+Integrate a Generative AI model (e.g., OpenAI API) to evaluate code, generate feedback, and simulate AI player.
+
+Fully functional voice output and guidance using pyttsx3 or TTS library.
+
+Animated robot that moves to fields in sync with voice instructions.
+
+Colorful, interactive, and attractive GUI with real-time updates.
+
+6. Special Requirements:
+
+Fully automated voice instructions.
+
+Dynamic content based on player’s field and preferences.
+
+No steps skipped; robot and voice follow every field and round.
+
+Code must be modular, maintainable, and ready to run in Python.
+
+Deliver a working Python app that matches this description exactly, fully interactive, voice-guided, and AI-powered."
